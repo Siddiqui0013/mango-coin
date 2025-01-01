@@ -16,7 +16,7 @@ export default function LandingPage() {
       <div id="tokenomics"><Tokenomics /></div>
       <Divider bgColor="#E4F6FA" />
       <div id="howto"><Howto /></div>
-      {/* <Divider /> */}
+      <Divider bgColor="#E8C5C5" />
       <div id="faq"><FAQ /></div>
       <Footer />
     </div>

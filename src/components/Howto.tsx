@@ -21,7 +21,6 @@ export default function Howto() {
         <p className="font-bold">Step 3: Swap & Hold</p>
         <p>Search for $PEPEMELONI,  swap your crypto, and become part of the meme revolution!</p>
         </div>
-        {/* <div className="step"></div> */}
       </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ export default function Navbar() {
     { name: "Home", id: "home" },
     { name: "About", id: "about" },
     { name: "Tokenomics", id: "tokenomics" },
-    { name: "Roadmap", id: "roadmap" },
+    { name: "How to buy", id: "howto" },
     { name: "FAQ", id: "faq" },
   ];
 
@@ -88,17 +88,17 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <div className="flex gap-12 mb-2 items-center">
-            <FaTelegramPlane size={44} className="bg-white p-1 border-black border rounded-full shadow-lg" />
-            <FaDiscord size={44} className="bg-white p-1 border-black border rounded-full shadow-lg" />
-            <FaTwitter size={44} className="bg-white p-1 border-black border rounded-full shadow-lg" />
+          <div className="flex gap-6 my-2 items-center">
+            <FaTelegramPlane size={44} className="bg-white p-1 border-black border rounded-md shadow-lg" />
+            <FaDiscord size={44} className="bg-white p-1 border-black border rounded-md shadow-lg" />
+            <FaTwitter size={44} className="bg-white p-1 border-black border rounded-md shadow-lg" />
           </div>
         </div>
 
         <div className="links hidden md:flex gap-2 items-center">
-          <FaTelegramPlane size={32} className="bg-white p-1 border-black border rounded-full shadow-lg" />
-          <FaDiscord size={32} className="bg-white p-1 border-black border rounded-full shadow-lg" />
-          <FaTwitter size={32} className="bg-white p-1 border-black border rounded-full shadow-lg" />
+          <FaTelegramPlane size={42} className="bg-[#FAA727] p-2 border-black border rounded-md" />
+          <FaDiscord size={42} className="bg-[#FAA727] p-2 border-black border rounded-md shadow-lg" />
+          <FaTwitter size={42} className="bg-[#FAA727] p-2 border-black border rounded-md shadow-lg" />
         </div>
       </div>
     </nav>
